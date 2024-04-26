@@ -1,0 +1,161 @@
+*{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+         
+
+          
+}
+html{
+  scroll-behavior: smooth;
+  cursor: pointer;
+}
+html::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+}
+html::-webkit-scrollbar-thumb{
+  background-color: lightsalmon;
+}
+
+.qc{
+          background-color: #16cc80c0;
+}
+.bg{
+          height: 70vh;
+          width: 100%;
+          background-image: linear-gradient(rgba(0, 0, 30, 0.091),
+          rgba(0,0,20)),url(collage-image_cleanup\ \(1\).jpg);
+          background-position: center;
+          background-size: cover;
+          background-attachment: fixed;
+}
+.event{
+          height: 50vh;
+          width: 100%;
+          background-image: linear-gradient(rgba(10, 0, 10, 0.091),
+          rgb(15, 1, 59)),url(Mujib.jpg);
+          background-position: center;
+          background-size: cover;
+          background-attachment: fixed;
+}
+
+.gradient-button {
+          
+          color: #fff;
+          background: linear-gradient(to right, #3498db, #2ecc71);
+          transition: background 0.3s ease;
+        }
+    
+        .gradient-button:hover {
+          background: linear-gradient(to right, #2ecc71, #3498db);
+        }
+
+        /* nav */
+        .gb:hover{
+          background: linear-gradient(to right, #cc2e78, #c234db);
+          border-radius: 10px;
+        }
+.text{
+          text-align: justify;
+}
+/* text hover effect */
+.hover-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* icon */
+.iconp{
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+
+/* __________ */
+.map-area{
+          width: 600px;
+          height: 465px;
+          
+}
+.map-area iframe{
+          width: 100%;
+          height: 50%;
+          border: none;
+          background-color: red;
+}
+
+@media (max-width:991px){
+          .map-area{
+                    width: 100%;
+                    height: 50%;
+          }
+}
+
+/* Carousel Image */
+.cr{
+  height: 70vh;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  /* background-color: linear-gradient(rgba(0,0,10),rgba(0,0,10)); */
+
+}
+
+/* Tast Amunial */
+.si{
+  height: 70%;
+  width: 30%;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+/* Education service section */
+.ed:hover{
+  background: linear-gradient(to right, #cc2e9d, #3498db);
+
+}
+
+/* Test Amunial block */
+.tst{
+  height: 70%;
+  width: 100%;
+}
+
+
+
+
+
+/* Footer */
+.font{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* color: aliceblue; */
+}
+
+
+/* To top navigation items */
+.to-top{
+  position: fixed;
+  right: 50px;
+  bottom: 16px;
+  border-radius: 100%;
+  border: 2px solid #f6f9f6;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  pointer-events: none;
+  transition: all.5s;
+  opacity: 0;
+}
+
+.to-top.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+
